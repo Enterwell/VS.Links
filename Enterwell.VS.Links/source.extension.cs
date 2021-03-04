@@ -9,7 +9,7 @@ namespace Enterwell.VS.Links
     {
         public const string Id = "845dfc16-4abc-4c0d-887e-10bd0009d056";
         public const string Name = "Enterwell Links";
-        public const string Description = @"This extension serves as a quick access to Enterwell's websites of interest.";
+        public const string Description = @"Visual Studio extension allows quick access to links of interest.";
         public const string Language = "en-US";
         public const string Version = "1.0";
         public const string Author = "Enterwell";

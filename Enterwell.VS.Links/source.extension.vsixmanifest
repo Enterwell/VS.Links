@@ -3,8 +3,8 @@
     <Metadata>
         <Identity Id="845dfc16-4abc-4c0d-887e-10bd0009d056" Version="1.0" Language="en-US" Publisher="Enterwell" />
         <DisplayName>Enterwell Links</DisplayName>
-        <Description xml:space="preserve">This extension serves as a quick access to Enterwell's websites of interest.</Description>
-        <MoreInfo>https://dev.azure.com/enterwell/Enterwell.Net/_git/Enterwell.VS.Links</MoreInfo>
+        <Description xml:space="preserve">Visual Studio extension allows quick access to links of interest.</Description>
+        <MoreInfo>https://github.com/Enterwell/VS.Links</MoreInfo>
         <Icon>Resources\enterwellBlack.png</Icon>
         <PreviewImage>Resources\enterwellBlack.png</PreviewImage>
         <Tags>enterwell, internal, quick links</Tags>
