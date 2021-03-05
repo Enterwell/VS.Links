@@ -14,7 +14,7 @@ namespace Enterwell.VS.Links.Options
         [Category("Enterwell Links")]
         [DisplayName("Wiki URL")]
         [Description("Specifies the url for the Wiki page.")]
-        public string WikiUrl { get; set; } = "https://wiki.enterwell.space/";
+        public string WikiUrl { get; set; } = "https://example.com?page=wikiPage";
 
         /// <summary>
         /// Property that holds DevOpsUrl entered through the Options page.
@@ -22,7 +22,7 @@ namespace Enterwell.VS.Links.Options
         [Category("Enterwell Links")]
         [DisplayName("DevOps URL")]
         [Description("Specifies the url for the DevOps page.")]
-        public string DevOpsUrl { get; set; } = "https://dev.azure.com/enterwell";
+        public string DevOpsUrl { get; set; } = "https://dev.azure.com/";
 
         /// <summary>
         /// Property that holds ClockifyUrl entered through the Options page.
