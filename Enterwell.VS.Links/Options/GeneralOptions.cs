@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel;
+using Options;
 
 namespace Enterwell.VS.Links.Options
 {
@@ -11,7 +12,7 @@ namespace Enterwell.VS.Links.Options
         /// <summary>
         /// Property that holds WikiUrl entered through the Options page.
         /// </summary>
-        [Category("Enterwell Links")]
+        [Category(Vsix.Name)]
         [DisplayName("Wiki URL")]
         [Description("Specifies the url for the Wiki page.")]
         public string WikiUrl { get; set; } = "https://example.com?page=wikiPage";
@@ -19,7 +20,7 @@ namespace Enterwell.VS.Links.Options
         /// <summary>
         /// Property that holds DevOpsUrl entered through the Options page.
         /// </summary>
-        [Category("Enterwell Links")]
+        [Category(Vsix.Name)]
         [DisplayName("DevOps URL")]
         [Description("Specifies the url for the DevOps page.")]
         public string DevOpsUrl { get; set; } = "https://dev.azure.com/";
@@ -27,7 +28,7 @@ namespace Enterwell.VS.Links.Options
         /// <summary>
         /// Property that holds ClockifyUrl entered through the Options page.
         /// </summary>
-        [Category("Enterwell Links")]
+        [Category(Vsix.Name)]
         [DisplayName("Clockify URL")]
         [Description("Specifies the url for the Clockify page.")]
         public string ClockifyUrl { get; set; } = "https://clockify.me/tracker";
@@ -35,7 +36,7 @@ namespace Enterwell.VS.Links.Options
         /// <summary>
         /// Property that holds user defined buttons entered through the Options page.
         /// </summary>
-        [Category("Enterwell Links")]
+        [Category(Vsix.Name)]
         [DisplayName("Additional Buttons")]
         [Description("Specifies the additional buttons to be display in the extension.")]
         public List<Button> Buttons { get; set; } = new List<Button>();
