@@ -1,5 +1,5 @@
 # Introduction 
-`Enterwell Links` is a VSIX project that contains the [Visual Studio](https://visualstudio.microsoft.com/vs/) Extension which serves as a quick access to [Enterwell](https://enterwell.net/)'s websites of interest.
+`Links` is a VSIX project that contains the [Visual Studio](https://visualstudio.microsoft.com/vs/) Extension which serves as a quick access to websites of interest.
 
 # Installation
 To be able to install the extension on your own machine, you first need to have [Visual Studio 2019](https://visualstudio.microsoft.com/vs/) or newer installed. Then you need to build it and run the generated `Enterwell.VS.Links.vsix` file in the `bin\(Debug|Release)` folder. 
