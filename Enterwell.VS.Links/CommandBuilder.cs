@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Enterwell.VS.Links.Options;
 using Microsoft.VisualStudio.Shell;
-using Button = Enterwell.VS.Links.Options.Button;
+using Button = Options.Button;
 using Process = System.Diagnostics.Process;
 
 namespace Enterwell.VS.Links
