@@ -1,14 +1,16 @@
-# Introduction 
+# Links
+
+## Introduction 
 `Links` is a VSIX project that contains the [Visual Studio](https://visualstudio.microsoft.com/vs/) Extension which serves as a quick access to websites of interest.
 
-# Installation
+## Installation
 To be able to install the extension on your own machine, you first need to have [Visual Studio 2019](https://visualstudio.microsoft.com/vs/) or newer installed. Then you need to build it and run the generated `Enterwell.VS.Links.vsix` file in the `bin\(Debug|Release)` folder. 
 
 Installer will pop up showing the extension name asking to which installed Visual Studio product you want to install the extension to.
 
 ![](img/installer.png)
 
-# Usage
+## Usage
 Extension is always visible in the standard toolbar at the end in the form of Menu Controller.
 
 ![](img/toolbarIcon.png)
