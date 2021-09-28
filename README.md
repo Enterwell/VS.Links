@@ -4,7 +4,6 @@
 `Links` is a VSIX project that contains the [Visual Studio](https://visualstudio.microsoft.com/vs/) Extension which serves as a quick access to websites of interest.
 
 ## Installation
-
 You can get the extension either by downloading and installing it manually from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Enterwell.enterwellvslinksvsix)
 
 ![](img/installer.png)
@@ -20,9 +19,9 @@ Extension is always visible in the standard toolbar at the end in the form of Me
 
 By default, there are 3 standard working-out-of-the-box buttons that take the user to their respective websites:
 
-+ Enterwell's Wiki
-+ Enterwell's default Azure DevOps page
-+ Clockify used by Enterwell to track hours on different projects
++ Organization's Wiki
++ Organization's default Azure DevOps page
++ Clockify used by an organization to track hours on different projects
 
   ![](img/defaultButtons.png)
 
@@ -32,7 +31,7 @@ It is possible to extend and configure the URLs in the Options page. Go to:
 
 + **Tools -> Options..**
 + In the Options page find the **Extensions** category
-+ Inside of the category, **Enterwell Links** page is placed
++ Inside of the category, **Links** page is placed
 
   ![](img/optionsPage.png)
 
