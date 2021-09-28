@@ -8,7 +8,7 @@ You can get the extension either by downloading and installing it manually from 
 
 ![](img/installer.png)
 
-or by searching for it in the Visual Studio Extension Manager
+or by searching for it in the Visual Studio Extension Manager.
 
 ![](img/extensionManager.png)
 
