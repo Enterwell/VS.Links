@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using Microsoft;
 using Microsoft.VisualStudio.Settings;
 using Microsoft.VisualStudio.Shell;
-using Microsoft.VisualStudio.Shell.Interop;
 using Microsoft.VisualStudio.Shell.Settings;
 using Microsoft.VisualStudio.Threading;
 using Newtonsoft.Json;
@@ -150,11 +148,7 @@ namespace Enterwell.VS.Links.Options
         {
             await ThreadHelper.JoinableTaskFactory.SwitchToMainThreadAsync();
 
-            var svc = (IVsSettingsManager) await AsyncServiceProvider.GlobalProvider.GetServiceAsync(typeof(SVsSettingsManager));
-
-            Assumes.Present(svc);
-
-            return new ShellSettingsManager(svc);
+            return new ShellSettingsManager(ServiceProvider.GlobalProvider);
         }
 
         private IEnumerable<PropertyInfo> GetOptionProperties()
